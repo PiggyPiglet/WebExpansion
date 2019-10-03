@@ -1,4 +1,4 @@
-package me.piggypiglet.webexpansion.url;
+package me.piggypiglet.webexpansion.url.objects;
 
 // ------------------------------
 // Copyright (c) PiggyPiglet 2019

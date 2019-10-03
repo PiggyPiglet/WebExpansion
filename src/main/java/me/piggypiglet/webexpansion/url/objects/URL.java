@@ -1,4 +1,4 @@
-package me.piggypiglet.webexpansion.url;
+package me.piggypiglet.webexpansion.url.objects;
 
 import me.piggypiglet.framework.utils.SearchUtils;
 

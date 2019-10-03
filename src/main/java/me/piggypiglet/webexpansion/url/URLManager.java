@@ -1,4 +1,4 @@
-package me.piggypiglet.webexpansion.request;
+package me.piggypiglet.webexpansion.url;
 
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
@@ -6,7 +6,7 @@ import me.piggypiglet.framework.file.framework.FileConfiguration;
 import me.piggypiglet.framework.managers.implementations.SearchableManager;
 import me.piggypiglet.framework.managers.objects.KeyTypeInfo;
 import me.piggypiglet.framework.utils.annotations.files.Config;
-import me.piggypiglet.webexpansion.url.URL;
+import me.piggypiglet.webexpansion.url.objects.URL;
 
 import java.util.*;
 
@@ -15,7 +15,7 @@ import java.util.*;
 // https://www.piggypiglet.me
 // ------------------------------
 @Singleton
-public final class RequestManager extends SearchableManager<URL> {
+public final class URLManager extends SearchableManager<URL> {
     private static final URL DEF = new URL("null", "null", new ArrayList<>());
 
     @Inject @Config private FileConfiguration config;
